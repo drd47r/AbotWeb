@@ -3,6 +3,17 @@
 version = 4
 
 [[package]]
+name = "abot-web"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "maud",
+ "serde",
+ "serde_json",
+ "tokio",
+]
+
+[[package]]
 name = "async-trait"
 version = "0.1.92"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -381,17 +392,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ed2bf2547551a7053d6fdfafda3f938979645c44812fbfcda098faae3f1a362d"
 dependencies = [
  "bitflags",
-]
-
-[[package]]
-name = "rust-web-playground"
-version = "0.1.0"
-dependencies = [
- "axum",
- "maud",
- "serde",
- "serde_json",
- "tokio",
 ]
 
 [[package]]
